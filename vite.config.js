@@ -8,7 +8,7 @@ import { PrimeVueResolver } from '@primevue/auto-import-resolver'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/DSW2/', // 👈 necessário para GitHub Pages
+  // 👈 necessário para GitHub Pages
   plugins: [
     vue(),
     vueDevTools(),
