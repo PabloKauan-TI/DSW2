@@ -26,11 +26,6 @@
           ></i>
         </a>
       </template>
-      <template #end>
-        <div>
-          <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" />
-        </div>
-      </template>
     </Menubar>
   </div>
 </template>
@@ -44,22 +39,29 @@ const router = useRouter()
 
 const items = ref([
   {
-    label: 'Produtos',
+    label: 'Products',
     icon: 'pi pi-cart-plus',
     command: () => {
       router.push('/')
     },
   },
   {
-    label: 'Usuários',
+    label: 'Users',
     icon: 'pi pi-user',
     command: () => {
       router.push('/usuarios')
     },
   },
   {
-    label: 'Compras',
+    label: 'Purchases',
     icon: 'pi pi-shop',
+    command: () => {
+      router.push('/compras')
+    },
+  },
+  {
+    label: 'Payments',
+    icon: 'pi pi-dollar',
     command: () => {
       router.push('/compras')
     },

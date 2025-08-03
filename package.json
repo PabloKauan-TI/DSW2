@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@primeuix/themes": "^1.2.1",
+    "date-fns": "^4.1.0",
     "pinia": "^3.0.3",
     "pinia-plugin-persistedstate": "^4.4.1",
     "primeicons": "^7.0.0",

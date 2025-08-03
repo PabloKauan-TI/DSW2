@@ -51,7 +51,6 @@ export const useProductStore = defineStore(
       { label: 'OUTOFSTOCK', value: 'OUTOFSTOCK' },
     ]
 
-    // Utils
     const formatCurrency = (value) => {
       if (value) return value.toLocaleString('en-US', { style: 'currency', currency: 'USD' })
       return ''
