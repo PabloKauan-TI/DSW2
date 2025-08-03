@@ -59,13 +59,6 @@ const items = ref([
       router.push('/compras')
     },
   },
-  {
-    label: 'Payments',
-    icon: 'pi pi-dollar',
-    command: () => {
-      router.push('/compras')
-    },
-  },
 ])
 </script>
 <style scoped>
